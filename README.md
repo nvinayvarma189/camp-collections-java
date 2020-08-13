@@ -2,10 +2,11 @@
 
 ## Intention
 
-This program intends to remove strings containing 'oggy' from a list of strings.
+This program intends to remove strings containing 'oggy' from a list of strings. Oggy is such an odd name.
 
 ## Method
 
-The code doesn't work according to the intention. Make it succeed.
-
-Don't forget to update this file after fixing the code.
+1. create an iterator object over the arraylist of strings (`names`)
+2. Iterate over the iterator object to get each string in the arraylist
+3. Check if "oggy" is present in each string
+4. if yes then remove that element from array list
