@@ -7,4 +7,4 @@ Because as I don't like cockroaches.
 
 ## Method
 
-If "oggy" is a substring of any string in array, then remove it.
+If 'oggy' is a sub string of any string in array, then remove it.
