@@ -5,6 +5,14 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void removeOggy(ArrayList<String> names) {
+        
+        Iterator itr = names.iterator(); 
+        while (itr.hasNext()) 
+        { 
+            String x = (String)itr.next();
+            if (x.indexOf("oggy") !=-1? true: false) 
+                itr.remove(); 
+        }
         return;
     }
     public static boolean oggyIsRemoved(ArrayList<String> names) {
