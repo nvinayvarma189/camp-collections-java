@@ -6,11 +6,11 @@ import java.util.stream.Collectors;
 public class Main {
     public static void removeOggy(ArrayList<String> names) {
         
-        Iterator itr = names.iterator(); 
+        Iterator itr = names.iterator(); //initialise an iterator object
         while (itr.hasNext()) 
         { 
-            String x = (String)itr.next();
-            if (x.indexOf("oggy") !=-1? true: false) 
+            String nameToBeRemoved = (String)itr.next();
+            if (nameToBeRemoved.indexOf("oggy") !=-1 ) 
                 itr.remove(); 
         }
         return;
