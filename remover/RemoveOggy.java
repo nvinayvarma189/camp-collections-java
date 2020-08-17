@@ -3,7 +3,7 @@ package remover;
 import java.util.*;
 import java.util.stream.Collectors;
 
-class RemoveOggy {
+pulic class RemoveOggy {
     public static void removeOggy(ArrayList<String> names) {
         
         Iterator itr = names.iterator(); //initialise an iterator object
