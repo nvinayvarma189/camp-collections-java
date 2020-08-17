@@ -23,6 +23,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Build
-      run: javac remover/Main.java
+      run: javac remover/RemoveOggy.java
     - name: Verify removal
-      run: java -classpath . remover.Main
+      run: java -classpath . remover.RemoveOggy
